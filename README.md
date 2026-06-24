@@ -93,14 +93,14 @@
 
 | 1. 전진 동작 (`FFFF` + 상승) | 2. 후진 동작 (`bbbb` + 하강) |
 | :---: | :---: |
-| <br>[[🎬 전진 구동 영상 첨부]](https://github.com/user-attachments/assets/4abfa461-3a04-4e49-8e0f-a285b30cdcd0) | <br>[[🎬 후진 구동 영상 첨부]](https://github.com/user-attachments/assets/1e0ae378-6c97-4557-84c6-cddd11b00ad4) |
+| [[🎬 전진 구동 영상 첨부]](https://github.com/user-attachments/assets/4abfa461-3a04-4e49-8e0f-a285b30cdcd0) | [[🎬 후진 구동 영상 첨부]](https://github.com/user-attachments/assets/1e0ae378-6c97-4557-84c6-cddd11b00ad4) |
 | **3. 좌회전 동작 (`LLLL` + 우➔좌)** | **4. 우회전 동작 (`rrrr` + 좌➔우)** |
-| <br>[[🎬 좌회전 구동 영상 첨부]](https://github.com/user-attachments/assets/c450dba8-7e48-46f1-8fb7-5544e3df613e) | <br>[[🎬 우회전 구동 영상 첨부]](https://github.com/user-attachments/assets/3f103b16-91b0-4966-895a-75890c84a080) |
+| [[🎬 좌회전 구동 영상 첨부]](https://github.com/user-attachments/assets/c450dba8-7e48-46f1-8fb7-5544e3df613e) | [[🎬 우회전 구동 영상 첨부]](https://github.com/user-attachments/assets/3f103b16-91b0-4966-895a-75890c84a080) |
 
-#### 📊 5. 최종 결과 데이터 조회 모드
+#### 📊 최종 결과 데이터 조회 모드
 > [cite_start]주행 종료 후 타이머 인터럽트로 누적된 총 주행 시간(초) 및 조향별 횟수 데이터 통계를 듀얼 FND 대시보드에 결산 출력하는 화면입니다[cite: 166, 167, 318].
 
-<img src="./images/driving_result.png" width="250" alt="Driving Result Display"/>
+<img src="./images/driving_result.jpg" width="250" alt="Driving Result Display"/>
 
 ---
 
