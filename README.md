@@ -33,8 +33,6 @@
 | <img src="./images/front.png" width="250" alt="정면 외관"/> | <img src="./images/top.png" width="250" alt="상단 외관"/> | <img src="./images/bottom.png" width="250" alt="하단 외관"/> |
 | *3방향 초음파 센서 배치* | *ATmega128 및 결선부* | *기어드 모터 및 구동부* |
 
-*(※ 이미지 파일은 레포지토리 내 `images` 폴더를 생성하여 넣거나, 동영상처럼 에디터에 드래그 앤 드롭 하시면 됩니다.)*
-
 ---
 
 ## 3. 시스템 회로도
@@ -70,7 +68,7 @@
 * **동작 매커니즘:** 파싱된 제어 명령어에 따라 모터 드라이버 인가 전압 플래그 가변 및 모터 PWM 작동.
 * **구현 기능:** 전진(F), 후진(B), 좌회전(L), 우회전(R), 브레이크 정지(S) 명령 조향 제어 및 실시간 FND 연동 출력.
 
-[[🎬 수동 조종 구동 비디오 첨부 공간]](https://github.com/user-attachments/assets/9c379bf1-484f-4004-98df-c9c92f59b938)
+[[🎬 수동 조종 구동 영상]](https://github.com/user-attachments/assets/9c379bf1-484f-4004-98df-c9c92f59b938)
 
 ---
 
@@ -81,7 +79,7 @@
 * **안전 확보:** 3방향의 장애물 위협 요소가 소거되면 정방향 전진 크루즈 순항 주행 유지.
 * **추가 최적화:** 조향 직후의 관성 제어를 유도하는 **디바운싱 유지 시간(Hold Time) 설계** 및 센서 간 간섭을 상쇄하는 **20ms 시분할 순차 스캔 딜레이** 적용.
 
-[[🎬 자율 주행 회피 구동 비디오 첨부 공간]](https://github.com/user-attachments/assets/bed8fe77-65f4-40f0-ba8e-c3a51ccbfaab)
+[[🎬 자율 주행 회피 구동 영상]](https://github.com/user-attachments/assets/bed8fe77-65f4-40f0-ba8e-c3a51ccbfaab)
 
 ---
 
@@ -93,9 +91,9 @@
 
 | 1. 전진 동작 (`FFFF` + 상승) | 2. 후진 동작 (`bbbb` + 하강) |
 | :---: | :---: |
-| [[🎬 전진 구동 영상 첨부]](https://github.com/user-attachments/assets/4abfa461-3a04-4e49-8e0f-a285b30cdcd0) | [[🎬 후진 구동 영상 첨부]](https://github.com/user-attachments/assets/1e0ae378-6c97-4557-84c6-cddd11b00ad4) |
+| [[🎬 전진 구동 영상]](https://github.com/user-attachments/assets/4abfa461-3a04-4e49-8e0f-a285b30cdcd0) | [[🎬 후진 구동 영상]](https://github.com/user-attachments/assets/1e0ae378-6c97-4557-84c6-cddd11b00ad4) |
 | **3. 좌회전 동작 (`LLLL` + 우➔좌)** | **4. 우회전 동작 (`rrrr` + 좌➔우)** |
-| [[🎬 좌회전 구동 영상 첨부]](https://github.com/user-attachments/assets/c450dba8-7e48-46f1-8fb7-5544e3df613e) | [[🎬 우회전 구동 영상 첨부]](https://github.com/user-attachments/assets/3f103b16-91b0-4966-895a-75890c84a080) |
+| [[🎬 좌회전 구동 영상]](https://github.com/user-attachments/assets/c450dba8-7e48-46f1-8fb7-5544e3df613e) | [[🎬 우회전 구동 영상]](https://github.com/user-attachments/assets/3f103b16-91b0-4966-895a-75890c84a080) |
 
 #### 📊 최종 결과 데이터 조회 모드
 > 주행 종료 후 타이머 인터럽트로 누적된 총 주행 시간(초) 및 조향별 횟수 데이터 통계를 듀얼 FND 대시보드에 결산 출력하는 화면입니다.
